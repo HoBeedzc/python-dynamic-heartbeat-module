@@ -21,7 +21,7 @@ just use the following command to get started:
 import time
 from dynamic_heartbeat import heartbeat as dhb
 
-interval = dhb.Timer()
+interval = dhb.Timer(default=10, min_=1, max_=60)
 time.sleep(interval(True))  # True to slow down the heartbeat. 5s -> 10s
 time.sleep(interval(False))  # False to speed up the heartbeat. 5s -> 2.5s
 ```
