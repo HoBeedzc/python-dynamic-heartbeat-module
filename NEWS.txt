@@ -1,10 +1,10 @@
 News
 ====
 
-0.0.1
+0.0.2
 -----
 
-*Release date: 01-Oct-2023*
+*Release date: 21-Feb-2024*
 
-* Initial release, basic functionality.
+* Add documentation.
 
